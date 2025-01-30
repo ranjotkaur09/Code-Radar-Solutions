@@ -3,10 +3,10 @@ int main(){
     int num;
     scanf("%d",&num);
     if(num & 1){
-        printf("LSB is 1\n");
+        printf("True");
     }
     else{
-        printf("LSb is 0\n");
+        printf("False");
     }
     return 0;
 
