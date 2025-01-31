@@ -8,7 +8,7 @@ int main(){
     }
     int count=o;
     for (int i=31; i>=0; i--){
-        if((num & (i<<i))==0){
+        if((num & (1<<i))==0){
             count++;
         }
         else{
