@@ -10,4 +10,4 @@ int main(){
     int bitvalue =(num>>n)& 1;
     printf("The value of the bit %d is: %d\n",n,bitvalue);
     return 0;
-}
+}    
