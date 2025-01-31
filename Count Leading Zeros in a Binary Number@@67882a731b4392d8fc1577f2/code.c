@@ -5,15 +5,15 @@ int main(){
 
     if(num==0){
         printf("32\n");
-}
-int count=o;
-for (int i=31; i>=0; i--){
-    if((num & (i<<i))==0){
-        count++;
     }
-    else{
-        break;
-    }
+    int count=o;
+    for (int i=31; i>=0; i--){
+        if((num & (i<<i))==0){
+            count++;
+         }
+         else{
+            break;
+            }
     return 0;
 }
 }    
