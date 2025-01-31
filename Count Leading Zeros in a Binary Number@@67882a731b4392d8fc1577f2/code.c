@@ -15,6 +15,7 @@ int main(){
             break;
         }
     }
+    printf("%d",count);
     return 0;
 }
 
