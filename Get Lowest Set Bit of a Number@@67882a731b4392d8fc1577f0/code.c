@@ -1,7 +1,15 @@
 #include <stdio.h>
 
 int main(){
-    int sum;
-    scanf("%d",&num);
+    int num;
+    scanf("%d".&num);
+
+    if(num == 0){
+        printf("-1\n");
+        return 0; 
+    }
+    int position = log2(num & -num);
+    printf("%d\n",position);
     return 0;
+
 }
