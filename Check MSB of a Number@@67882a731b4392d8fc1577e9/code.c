@@ -1,17 +1,16 @@
 #include <stdio.h>
 int main(){
     int num;
-    printf("Enter a 32-bit inetger: ");
     scanf("%d",&num);
-    if (num & (1<<31)) {
-        printf("The MSB is set(1).\n");
+    if(num & (1<<31)){
+        printf("Set\n");
     }
     else{
-        printf("The MSB is not set(0).\n");
+        printf("Not Set\n");
     }
     return 0;
+
 }
-    
     
     
     
