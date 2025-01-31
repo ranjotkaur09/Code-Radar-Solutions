@@ -3,7 +3,7 @@ int main(){
     int num;
     printf("Enter a 32-bit inetger: ");
     scanf("%d",&num);
-    if (num & (1<<32)) {
+    if (num & (1<<31)) {
         printf("The MSB is set(1).\n");
     }
     else{
