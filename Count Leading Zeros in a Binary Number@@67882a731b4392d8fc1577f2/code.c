@@ -10,11 +10,11 @@ int main(){
     for (int i=31; i>=0; i--){
         if((num & (i<<i))==0){
             count++;
-         }
-         else{
+        }
+        else{
             break;
-            }
+        }
     return 0;
-}
+    }
 }    
 
