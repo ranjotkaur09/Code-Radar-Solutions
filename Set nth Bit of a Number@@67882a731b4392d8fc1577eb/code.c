@@ -5,7 +5,7 @@ int setNthBit(int num, int n){
 }
 
 int main(){
-    int n, num;
+    int num,n;
 
     printf("Enter a number: ");
     scanf("%d",&num);
