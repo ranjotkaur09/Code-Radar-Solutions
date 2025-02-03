@@ -5,7 +5,7 @@ void decimalToBinary(int n){
 
     if(n==0){
         printf("0");
-        return 0;
+        return;
     }
 
     while(n>0){
