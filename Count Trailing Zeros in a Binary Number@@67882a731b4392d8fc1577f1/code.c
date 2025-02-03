@@ -1,21 +1,17 @@
 #include <stdio.h>
 
-int main(){
-    int num;
-    scanf("%d",&num);
+int countTrallingZeros(int n){
+    int count =0;
+    while ((n&1)==0 && n!=0){
+        count++;
+        n>>=1;
+    }
+    return count;
+}
 
-    if(num==0){
-        printf("32\n");
-    }
-    int count=0;
-    for(int i=31; i>=0;i--){
-        if((num &(1<<i))==0){
-            count++;
-        }
-        else{
-            break;
-        }
-    }
-    printf("%d",count);
+int main(){
+    int n;
+    scanf("%d",&n);
+    print("%d\n",countTrallingZeros(n));
     return 0;
 }
