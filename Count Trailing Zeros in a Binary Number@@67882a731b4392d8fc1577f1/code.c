@@ -12,6 +12,6 @@ int countTrallingZeros(int n){
 int main(){
     int n;
     scanf("%d",&n);
-    print("%d\n",countTrallingZeros(n));
+    printf("%d\n",countTrallingZeros(n));
     return 0;
 }
