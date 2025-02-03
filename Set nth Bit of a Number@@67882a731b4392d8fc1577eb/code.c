@@ -5,9 +5,9 @@ int setNthBit(int num, int n){
 }
 
 int main(){
-    int num;
+    int n, num;
 
-    printf("Enter a number");
+    printf("Enter a number: ");
     scanf("%d",&num);
     printf("Enter the bit position to set (0- based index): ");
     scanf("%d",&n);
