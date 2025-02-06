@@ -10,13 +10,13 @@ int main() {
         printf("Vowel\n");
     }
     else if ((ch >= 'a' && ch <= 'z') || (ch >= 'A' && ch <= 'Z')) {
-        printf("Consonant.\n");
+        printf("Consonant\n");
     }
     else if (isdigit(ch)) {
-        printf("Digit.\n");
+        printf("Digit\n");
     }
     else {
-        printf("Special Character.\n");
+        printf("Special Character\n");
     }
     return 0;
 }
