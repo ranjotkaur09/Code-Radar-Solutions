@@ -13,7 +13,7 @@ int main(){
         printf("Divisible by 5\n");
     }
     else{
-        printf("Not Divisible by 3 and 5\n");
+        printf("Not Divisible\n");
     }
     return 0;
 }
