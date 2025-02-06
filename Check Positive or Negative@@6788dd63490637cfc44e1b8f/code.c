@@ -2,7 +2,7 @@
 
 int main(){
     int num;
-    sacnf("%d",&num);
+    scanf("%d",&num);
     if(num>0){
         printf("Positive\n");
     }
