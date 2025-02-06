@@ -7,11 +7,10 @@ int main(){
         printf("The Maximum number is: %d\n", a);
     }
     else if(b>=a && b>=c ){
-        printf("The Maximum number is: %d\n", b)
+        printf("The Maximum number is: %d\n", b);
     }
     else{
         printf("The Maximum number is: %d\n", c);
-
     }
     return 0;
 }
