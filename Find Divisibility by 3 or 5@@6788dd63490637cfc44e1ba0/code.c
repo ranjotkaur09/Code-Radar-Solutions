@@ -6,6 +6,12 @@ int main(){
     if(num % 3==0 && num % 5==0 ){
         printf("Divisible by Both\n");
     }
+    else if(num % 3==0){
+        printf("Divisible by 3");
+    }
+    else if(num % 5==0){
+        prinf("Divisible by 5");
+    }
     else{
         printf("Not Divisible by Both\n");
     }
