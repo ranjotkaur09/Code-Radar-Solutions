@@ -1,16 +1,16 @@
 #include <stdio.h>
 
 int main(){
-    int num1,num2,num3;
-    scanf("%d %d %d",&num1,&num2,&num3);
-    if(num1>=num2 && num1>=num3){
-        printf(" maximum number : %d\n", num1);
+    int a,b,c;
+    scanf("%d %d %d",a,b,c);
+    if(a>b && a>c){
+        printf("%d",a);
     }
-    else if(num2>=num1 && num2>=num3 ){
-        printf(" maximum number : %d\n", num2);
+    else if(b>a && b>c ){
+        printf("%d",b);
     }
     else{
-        printf(" maximum number : %d\n", num3);
+        printf("%d", c);
     }
     return 0;
 }
