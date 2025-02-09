@@ -8,15 +8,15 @@ int main() {
     if (num <= 1) {
         printf("Not Prime\n");
     } else {
-        int isPrime = 1;  
+        int Prime = 1;  
         for (int i = 2; i <= sqrt(num); i++) {  
             if (num % i == 0) { 
-                isPrime = 0;
+                Prime = 0;
                 break;
             }
         }
 
-        if (isPrime) {
+        if (Prime) {
             printf("Prime\n");
         } else {
             printf("Not Prime\n");
