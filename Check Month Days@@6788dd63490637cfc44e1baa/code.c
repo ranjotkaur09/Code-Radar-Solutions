@@ -4,10 +4,10 @@ int main(){
     int num;
     scanf("%d",&num);
     if(num is between 1 && 12){
-        print("the number of days in a month");
+        printf("the number of days in a month");
     }
     else{
-        print("Invalid month");
+        printf("Invalid month");
     }
     return 0;
 }
