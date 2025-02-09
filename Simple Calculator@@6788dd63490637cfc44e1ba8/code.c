@@ -25,7 +25,7 @@ int main(){
           }    
           break;
         default:
-          printf("Erroe\n");  
+          printf("Error\n");  
     }
     return 0;
 }
