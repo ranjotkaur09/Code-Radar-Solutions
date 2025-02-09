@@ -4,7 +4,7 @@ int main(){
     int num1,num2;
     char operator;
 
-    scanf("%d %d %c" &num1,&num2,&operator);
+    scanf("%d %d %c", &num1,&num2,&operator);
 
     switch(operator){
         case '+':
