@@ -1,13 +1,21 @@
 #include <stdio.h>
 
 int main(){
-    int num;
-    scanf("%d",&num);
-    if(num is between 1 && 12){
-        printf("the number of days in a month");
+    int month;
+    scanf("%d",&month);
+    switch(month){
+    case 1 :case 3: case 5: case 7: case 8: case 10: case 12:
+        printf("31\n");
+        break;
+    case 4: case 6: case 9: case 11:
+        printf("30\n");
+        break;
+    case 2:
+        printf("28\n");
+        break;
+       default:
+        printf("Invalid month\n");
     }
-    else{
-        printf("Invalid month");
-    }
+
     return 0;
 }
