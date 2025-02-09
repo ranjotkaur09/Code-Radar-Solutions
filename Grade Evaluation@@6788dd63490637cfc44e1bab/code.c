@@ -13,10 +13,10 @@ int main(){
     else if( grade == 'C'){
         printf("Average\n");
     }
-    else if( garde == 'D'){
+    else if( grade == 'D'){
         printf("Below Average\n");
     }
-    else if( garde == 'F'){
+    else if( grade == 'F'){
         printf("Fail\n");
     }
     else{
