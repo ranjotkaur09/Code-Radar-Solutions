@@ -6,7 +6,8 @@ int num() {
 
     if ((a > 0 && b > 0) || (a < 0 && b < 0)) {
         printf("Same Sign\n");
-    } else {
+    } 
+    else {
         printf("Different Sign\n");
     }
     return 0;
