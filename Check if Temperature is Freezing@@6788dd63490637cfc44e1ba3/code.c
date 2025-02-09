@@ -6,7 +6,8 @@ int main() {
 
     if (temperature <= 0) {
         printf("Freezing\n");
-    } else {
+    } 
+    else {
         printf("Above freezing\n");
     }
 
