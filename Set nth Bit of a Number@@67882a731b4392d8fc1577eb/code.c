@@ -1,13 +1,9 @@
 #include <stdio.h>
 
-int setNthBit(int num, int n){
-    return num | (1<<n);
-}
-
 int main(){
     int num,n;
-    scanf("%d",&num);
-    scanf("%d",&n);
-
+    scanf("%d %d",&num,&n);
+    num = num | (1<<n);
+    printf("%d\n",num);
     return 0;
 }
