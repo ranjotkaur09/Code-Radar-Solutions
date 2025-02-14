@@ -9,10 +9,11 @@ int main(void)
 
     sq = sqrt(x); 
 
-    if( sq == (int)sq )
-        printf("Yes\n");
-    else
+    if( sq == (int)sq ){
+       printf("Yes\n"); 
+    }
+    else{
         printf("No\n");
-
+    }
     return 0;
 }
