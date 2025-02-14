@@ -9,7 +9,7 @@ int main() {
         printf("Not Prime\n");
     } else {
         int Prime = 1;  
-        for (int i = 2; i <= sqrt(num); i++) {  
+        for (int i = 2; i; i++) {  
             if (num % i == 0) { 
                 Prime = 0;
                 break;
