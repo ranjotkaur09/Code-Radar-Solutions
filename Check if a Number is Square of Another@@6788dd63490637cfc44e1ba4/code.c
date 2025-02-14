@@ -15,7 +15,7 @@ int main() {
     scanf("%d", &num2);
 
     if (isSquare(num1, num2)) {
-        printf("Yes\n", num2, num1);
+        printf("Yes\n", num1, num2);
     } else {
         printf("No\n", num2, num1);
     }
