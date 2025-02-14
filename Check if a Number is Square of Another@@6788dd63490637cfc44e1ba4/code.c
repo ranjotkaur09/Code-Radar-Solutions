@@ -1,19 +1,24 @@
 #include <stdio.h>
-int main(void)
-{
-    double x;
+#include <math.h>
 
-    double sq;
-
-    scanf("%lf",&x);
-
-    sq = sqrt(x); 
-
-    if( sq == (int)sq ){
-       printf("Yes\n"); 
+int isSquare(int num1, int num2) {
+    int square = num1 * num1;
+    if (num2 == square) {
+        return 1;  
     }
-    else{
-        printf("No\n");
+    return 0;  
+}
+
+int main() {
+    int num1, num2;
+    scanf("%d", &num1);
+    scanf("%d", &num2);
+
+    if (isSquare(num1, num2)) {
+        printf("Yes\n", num2, num1);
+    } else {
+        printf("No\n", num2, num1);
     }
+
     return 0;
 }
