@@ -1,9 +1,9 @@
 #include<stdio.h>
 
 int main(){
-    int num;
+    int n;
     int i=0;
-    while(i<=num){
+    while(i<=n){
         printf("i");
         i++;
     }
