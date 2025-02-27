@@ -1,8 +1,10 @@
-#include<stdio.h>
-int main(){
-    int n;
-    scanf("%d",&n);
+#include <stdio.h>
 
-    int sum = n*(n+1)/2;
+int main() {
+    int n, sum = 0;
+    scanf("%d", &n);
+    for (int i = 1; i <= n; i++) {
+        sum += i; 
+    }
     return 0;
 }
