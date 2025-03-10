@@ -1,11 +1,14 @@
 #include <stdio.h>
 
 int main() {
-    int n, sum;
-    printf("Enter a number: ");
+    int n, sum = 0;
     scanf("%d", &n);
-    sum = (n * (n + 1)) / 2;
+
+    for(int i = 1; i <= n; i++) {
+        sum += i; 
+    }
 
     return 0;
 }
+
 
